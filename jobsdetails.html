@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>finate</title>
+
+
+</head>
+
+<body>
+
+
+    <div style="background-image: url(images/slider-bg.jpg);" class="im">
+        <header class="main-header">
+            <nav class="navbar navbar-expand-lg py-3">
+                <div class="container">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo-light.webp" alt="Logo">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 custom-nav-links">
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="color: #03a84e !important;">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a style="color: white;" class="nav-link dropdown" href="#" id="findJobsDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Find Jobs
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="findJobsDropdown">
+                                    <li><a class="dropdown-item" href="jobs.html">Jobs</a></li>
+                                    <li><a class="dropdown-item" href="jobsdetails.html">Jobs Details</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a style="color: white;" class="nav-link"
+                                    href="employers-details.html">Employer Details</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a style="color: white;" class="nav-link dropdown" href="#" id="candidatesDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Candidates
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="candidatesDropdown">
+                                    <li><a class="dropdown-item" href="candidates.html">Candidates</a></li>
+                                    <li><a class="dropdown-item" href="candidate-details.html">Candidates
+                                            Details</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a style="color: white;" class="nav-link dropdown" href="#" id="blogDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+                                    <li><a class="dropdown-item" href="Grid.html">Blog Grid</a></li>
+                                    <li><a class="dropdown-item" href="blog-left-sidebar.html">Blog Left
+                                            Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="blog-right-sidebar.html">Blog Right
+                                            Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="blog-details.html">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a style="color: white;" class="nav-link dropdown" href="#" id="pagesDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                    <li><a class="dropdown-item" href="about-us.html">About us</a></li>
+                                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                    <li><a class="dropdown-item" href="registration.html">Registration</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="page-not-found.html">Pages Not
+                                            Found</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a style="color: white ;" class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-flex ms-lg-auto">
+                            <a href="registration.html" class="btn btn-success fw-bold register-btn" role="button">
+                                + Registration
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <div style="text-align: center;" class="content">
+           
+            <h1 style="text-align: center; font-weight: bold;">Job</h1>
+            <a style="text-decoration: none; color: white;" href="index.html">Home     <span style="text-decoration: none; color: #03a84e;">      //     Job</span></a>
+
+            </div>
+    </div>
+
+
+    </div>
+ 
+
+    <div style="background-color: whitesmoke;" class="container">
+        <div class="row">
+            <div class="col-lg-8">
+               <div class="card mb-3" style="max-width: 540px; background-color: whitesmoke; border: none;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img style="padding: 10px;" src="images/job.webp" class="img-fluid rounded-4" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div style="padding: 30px;" class="card-body">
+        <h4 style="font-weight: bold;" class="card-title">Senior Web Developer</h4>
+       <h5 style="color: #03a84e; font-size: 15px;" >Obelus Concepts Ltd.</h5>
+       <div style="color: #555; gap: 10px; font-size: 13px;" class="tag">
+       <i class="bi bi-geo-alt-fill"></i><span>New York, USA</span>
+       <i class="bi bi-telephone-fill"></i><span>+88 456 796 457</span>
+       </div>
+      
+    
+
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+   
+ 
+            </div>
+            <div class="col-lg-4">
+                 <div  style="padding: 30px;" class="card-body">
+                     <h4 style="color: black;"  class=" fw-bold">$5000 <span style="font-weight: normal; font-size: 13px; color: black;">/monthly</span></h4>
+        
+     <a style="margin-top: 10px;" href="#" class="btn btn-success btn-lg apply-btn">Apply Now</a>
+       </div>
+      
+    
+
+      </div>
+            </div>
+        </div>
+    </div>  
+
+  
+
+
+<div class="container my-5">
+    <div class="row">
+
+        <div class="col-lg-8 col-lg-5">
+
+            <section  style="color: #555; font-size: 15px; font-family: Jostsans-serif;"  class="mb-4">
+                <h2  class="section-title">Description</h2>
+                <p>It is a long established fact that a reader will be distracted the readable content of page when looking at its layout. The point of using it that has non-eoness normal a distribution of letters, as opposed to usm content publishing packages web page editors.</p>
+                <p>It is a long established fact that a reader will be distracted the readable content of page when looking at its layout. The point of using it that has non-eoness normal a distribution of letters, as opposed to usm content publishing packages web page editors.</p>
+            </section>
+            <hr class="d-lg-none"> <section class="mb-4">
+                <h2 class="section-title">Responsibilities</h2>
+                <ul class=" custom-list">
+                    <li><i class="bi bi-check"></i>Developing custom themes (WordPress.org & Themeforest Standards)</li>
+                    <li><i class="bi bi-check"></i>Creating responsive website designs</li>
+                    <li><i class="bi bi-check"></i>Manage order email templates</li>
+                    <li><i class="bi bi-check"></i>Develop page speed optimized themes</li>
+                </ul>
+            </section>
+            
+            <section class="mb-4">
+                <h2 class="section-title">Requirements</h2>
+                <ul class="custom-list">
+                    <li><i class="bi bi-check"></i>Having approved theme(s) on Themeforest will be given high preference.</li>
+                    <li><i class="bi bi-check"></i>Strong knowledge of WordPress Theme Standard</li>
+                    <li><i class="bi bi-check"></i>Ability to convert HTML templates into fully functional WordPress themes</li>
+                    <li><i class="bi bi-check"></i>Strong knowledge in O O C S and Javascript (ES6), jQuery, etc.</li>
+                    <li><i class="bi bi-check"></i>Moderate knowledge in WordPress Core APIs like options, metadata, REST, hooks, settings, etc.</li>
+                    <li><i class="bi bi-check"></i>Ability to debug and fix bugs arising from other developer's code.</li>
+                    <li><i class="bi bi-check"></i>Detail oriented</li>
+                    <li><i class="bi bi-check"></i>Hard worker and passionate - we are growing super fast</li>
+                </ul>
+            </section>
+
+            <section class="mb-4">
+                <h2 class="section-title">Educational Requirements</h2>
+                <p class="text-secondary">It doesn't matter where you went to college or what your CGPA was as long as you are smart, passionate, ready to work hard, and have fun.</p>
+            </section>
+
+            <section class="mb-4">
+                <h2 class="section-title">Working Hours</h2>
+                <ul class=" custom-list working-hours">
+                    <li><i class="bi bi-clock me-2"></i>8:00 AM - 5:00 PM</li>
+                    <li><i class="bi bi-calendar me-2"></i>Monday - Friday</li>
+                    <li><i class="bi bi-calendar-week me-2"></i>Weekend: Saturday, Sunday</li>
+                </ul>
+            </section>
+
+            <section class="mb-5">
+                <h2 class="section-title">Benefits</h2>
+                <ul class=" custom-list">
+                    <li><i class="bi bi-check"></i>Work in a flat organization where your voice is always heard.</li>
+                    <li><i class="bi bi-check"></i>Provident fund.</li>
+                    <li><i class="bi bi-check"></i>Gratuity.</li>
+                    <li><i class="bi bi-check"></i>Medical Leave.</li>
+                    <li><i class="bi bi-check"></i>Having Corporate deals with multiple Hospitals.</li>
+                    <li><i class="bi bi-check"></i>Performance bonus.</li>
+                    <li><i class="bi bi-check"></i>Retention bonus.</li>
+                    <li><i class="bi bi-check"></i>Festival Bonus: 2 (Yearly)</li>
+                    <li><i class="bi bi-check"></i>Yearly Official Tour to Singapore.</li>
+                    <li><i class="bi bi-check"></i>Unlimited Tea, Coffee & Snacks.</li>
+                    <li><i class="bi bi-check"></i>Annual Tour.</li>
+                    <li><i class="bi bi-check"></i>Team Outing.</li>
+                    <li><i class="bi bi-check"></i>Marriage Bonus and Marriage Leave.</li>
+                    <li><i class="bi bi-check"></i>Paternity and Maternity Leave.</li>
+                    <li><i class="bi bi-check"></i>Yearly Family tour.</li>
+                    <li><i class="bi bi-check"></i>Knowledge Sharing Session.</li>
+                    <li><i class="bi bi-check"></i>Learning & Development.</li>
+                    <li><i class="bi bi-check"></i>Work with a vibrant team and amazing products.</li>
+                    <li><i class="bi bi-check"></i>Team recreational activities (table tennis, pool, billiard).</li>
+                    <li><i class="bi bi-check"></i>Training and learning materials to improve skills.</li>
+                    <li><i class="bi bi-check"></i>Last but not the least, Worlds Best Work Environment.</li>
+                </ul>
+            </section>
+            <hr>
+
+            <section class="statement p-4 mt-4">
+                <p class="mb-2"><strong>Statement</strong></p>
+                <p>Firate is committed to creating the happiest company working for and is proud to provide equal opportunity to all. All the qualified applicants will receive consideration for employment without regard to race, color, ancestry, religion, sex, sexual orientation, age, citizenship, marital status, disability, gender identity, or any other bases protected by federal, state, or local law.</p>
+            </section>
+
+            <div class="mt-4 mb-5">
+                <a href="#" class="btn btn-success btn-lg apply-btn">Apply Now <i class="bi bi-arrow-right-short ms-2"></i></a>
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+
+            <div class="card summary-card p-4 mb-4">
+                <h3 class="summary-title">Summary</h3>
+                <table class="table table-borderless summary-table">
+                    <tbody>
+                        <tr><th>Job Type</th><td style="color: #03a84e;">: Full-time</td></tr>
+                        <tr><th>Category</th><td>: Development</td></tr>
+                        <tr><th>Posted</th><td>: 20 June, 2022</td></tr>
+                        <tr><th>Category</th><td>: Development</td></tr>
+                        <tr><th>Salary</th><td>: 55000 / Monthly</td></tr>
+                        <tr><th>Experience</th><td>: 05 Years</td></tr>
+                        <tr><th>Gender</th><td>: Male or Female</td></tr>
+                        <tr><th>Qualification</th><td>: BSc, MSc</td></tr>
+                        <tr><th>Level</th><td>: Junior</td></tr>
+                        <tr><th>Applied</th><td>: 20 Applicant</td></tr>
+                        <tr><th>Application End</th><td style="color: orange;">: 20 November, 2022</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <hr class="d-lg-none">
+
+            <div class="card share-card p-4 mb-4">
+                <h3 class="share-title">Share With</h3>
+                <div class="d-flex justify-content-center share-icons">
+                    <a href="#" class="btn me-2"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="btn me-2"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="btn me-2"><i class="bi bi-google"></i></a>
+                    <a href="#" class="btn me-2"><i class="bi bi-pinterest"></i></a>
+                    <a href="#" class="btn"><i class="bi bi-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="card tags-card p-4">
+                <h3 class="tags-title">Tags:</h3>
+                <div class="tag-cloud">
+                    <span class="textbage">Cleaning</span>
+                    <span class="textbage">Cleaning Agency</span>
+                    <span class="textbage">Business</span>
+                    <span  class="textbage">Cleaning</span>
+                    <span class="textbage">Cleaning Agency</span>
+                    <span class="textbage">Business</span>
+                    <span class="textbage">Cleaning</span>
+                    <span class="textbage">Cleaning Agency</span>
+                    <span class="textbage">Business</span>
+                    <span class="textbage">Cleaning Agency</span>
+                    <span class="textbage">Business</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+   
+
+    <footer>
+        <div style="background-color: #03a84e; width: 100%; height: 200px;"
+            class="container-fluid d-flex align-items-center">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+
+                    <div class="col-12 col-md-5">
+                        <div class="news">
+                            <h4 style="font-size: 2.2rem;" class="text-white fw-bold">Subscribe for everyday job
+                                newsletter.</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-7">
+                        <div class="footer-newsletter-form">
+                            <form action="#" class="d-flex">
+                                <input type="email" placeholder="Enter your email" class="form-control me-2">
+                                <button type="submit" class="btn btn-primary btn-newsletter">Subscribe Now</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <footer class="main-footer">
+        <div style="background-color: #272a33;" class="container-fluid">
+            <div class="container pt--60 pb--60">
+                <div class="row">
+
+                    <div style="margin-bottom: 30px;" class="col-md-6 col-lg-3">
+                        <div class="logoindex">
+                            <a href="index.html">
+                                <img class="logo-main" src="images/logo-light-theme.png" alt="Logo" />
+                            </a>
+                        </div>
+                        <p class="ptext">That necessitat ecommerce platform that optimi your store popularised the
+                            release</p>
+                        <div class="icons">
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener"><i
+                                    class="bi bi-facebook"></i></a>
+                            <a href="https://www.skype.com" target="_blank" rel="noopener"><i
+                                    class="bi bi-skype"></i></a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener"><i
+                                    class="bi bi-twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-9">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-3">
+                                <div class="widget-item nav-menu-item1">
+                                    <h4 class="widget-title">Company</h4>
+                                    <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#widgetId-1">Company</h4>
+                                    <div id="widgetId-1" class="collapse widget-collapse-body">
+                                        <div class="collapse-body">
+                                            <div class="widget-menu-wrap">
+                                                <ul style="list-style: none;" class="nav-menu">
+                                                    <li><a href="about-us.html">About Us</a></li>
+                                                    <li><a href="about-us.html">Why Extobot</a></li>
+                                                    <li><a href="contact.html">Contact With Us</a></li>
+                                                    <li><a href="contact.html">Our Partners</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-lg-3">
+                                <div class="widget-item nav-menu-item2">
+                                    <h4 class="widget-title">Resources</h4>
+                                    <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#widgetId-2">Resources</h4>
+                                    <div id="widgetId-2" class="collapse widget-collapse-body">
+                                        <div class="collapse-body">
+                                            <div class="widget-menu-wrap">
+                                                <ul style="list-style: none;" class="nav-menu">
+                                                    <li><a href="account-login.html">Quick Links</a></li>
+                                                    <li><a href="job.html">Job Packages</a></li>
+                                                    <li><a href="job.html">Post New Job</a></li>
+                                                    <li><a href="job.html">Jobs Listing</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-lg-3">
+                                <div class="widget-item nav-menu-item3">
+                                    <h4 class="widget-title">Legal</h4>
+                                    <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#widgetId-3">Legal</h4>
+                                    <div id="widgetId-3" class="collapse widget-collapse-body">
+                                        <div class="collapse-body">
+                                            <div class="widget-menu-wrap">
+                                                <ul style="list-style: none;" class="nav-menu">
+                                                    <li><a href="account-login.html">Affiliate</a></li>
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="account-login.html">Help & Support</a></li>
+                                                    <li><a href="job.html">Careers</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-lg-3">
+                                <div class="widget-item nav-menu-item4">
+                                    <h4 class="widget-title">Products</h4>
+                                    <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#widgetId-4">Products</h4>
+                                    <div id="widgetId-4" class="collapse widget-collapse-body">
+                                        <div class="collapse-body">
+                                            <div class="widget-menu-wrap">
+                                                <ul style="list-style: none;" class="nav-menu">
+                                                    <li><a href="account-login.html">Star a Trial</a></li>
+                                                    <li><a href="about-us.html">How It Works</a></li>
+                                                    <li><a href="account-login.html">Features</a></li>
+                                                    <li><a href="about-us.html">Price & Planing</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <div class="container pt--0 pb--0">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-bottom-content">
+                            <p class="copyright">© 2022 Finate. Made with <i class="bi bi-suit-heart-fill"></i> by <a
+                                    target="_blank" href="https://themeforest.net/user/codecarnival">Codecarnival.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

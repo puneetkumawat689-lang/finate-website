@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>finate</title>
+
+
+</head>
+
+<body>
+
+
+    <div style="background-image: url(images/slider-bg.jpg);" class="im">
+        <header class="main-header">
+            <nav class="navbar navbar-expand-lg py-3">
+                <div class="container">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo-light.webp" alt="Logo">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 custom-nav-links">
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="color: #03a84e !important;">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a style="color: white;" class="nav-link dropdown" href="#" id="findJobsDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Find Jobs
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="findJobsDropdown">
+                                    <li><a class="dropdown-item" href="jobs.html">Jobs</a></li>
+                                    <li><a class="dropdown-item" href="jobsdetails.html">Jobs Details</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a style="color: white;" class="nav-link"
+                                    href="employers-details.html">Employer Details</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a style="color: white;" class="nav-link dropdown" href="#" id="candidatesDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Candidates
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="candidatesDropdown">
+                                    <li><a class="dropdown-item" href="candidates.html">Candidates</a></li>
+                                    <li><a class="dropdown-item" href="candidate-details.html">Candidates
+                                            Details</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a style="color: white;" class="nav-link dropdown" href="#" id="blogDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+                                    <li><a class="dropdown-item" href="Grid.html">Blog Grid</a></li>
+                                    <li><a class="dropdown-item" href="blog-left-sidebar.html">Blog Left
+                                            Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="blog-right-sidebar.html">Blog Right
+                                            Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="blog-details.html">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a style="color: white;" class="nav-link dropdown" href="#" id="pagesDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                    <li><a class="dropdown-item" href="about-us.html">About us</a></li>
+                                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                    <li><a class="dropdown-item" href="registration.html">Registration</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="page-not-found.html">Pages Not
+                                            Found</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a style="color: white ;" class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-flex ms-lg-auto">
+                            <a href="registration.html" class="btn btn-success fw-bold register-btn" role="button">
+                                + Registration
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <div style="text-align: center;" class="content">
+
+            <h1 style="text-align: center; font-weight: bold;">Blog Post</h1>
+            <a style="text-decoration: none; color: white;" href="index.html">Home <span
+                    style="text-decoration: none; color: #03a84e;"> // Blog Post</span></a>
+
+        </div>
+    </div>
+
+   <section class="blog-area">
+    <div class="container">
+      <div class="row g-5 flex-xl-row-reverse">
+        
+        <!-- Main Blog Grid -->
+        <div class="col-xl-8">
+          <div class="row">
+            <!-- start Blog Post -->
+            <div class="col-sm-6">
+              <div class="post-item">
+                <div class="thumb">
+                  <a href="blog-details.html"><img style="border-radius: 5px;" src="images/affordable.webp" alt="Blog"></a>
+                </div>
+                <div class="content">
+                  <div class="author">By <a style="text-decoration: none;" href="blog-left-sidebar.html">Walter Houston</a></div>
+                  <h4 class="title"><a href="blog-details.html">All of these amazing features come at an affordable price!</a></h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="meta">
+                    <span class="post-date">03 April, 2022</span>
+                    <span class="dots"></span>
+                    <span class="post-time">10 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- first blog -->
+            <div class="col-sm-6">
+              <div class="post-item">
+                <div class="thumb">
+                  <a href="blog-details.html"><img style="border-radius: 5px;" src="images/woolean.webp" alt="Blog"></a>
+                </div>
+                <div class="content">
+                  <div class="author">By <a style="text-decoration: none;" href="blog-left-sidebar.html">Walter Houston</a></div>
+                  <h4 class="title"><a href="blog-details.html">With WooLentor's drag-and-drop interface for creating...</a></h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="meta">
+                    <span class="post-date">03 April, 2022</span>
+                    <span class="dots"></span>
+                    <span class="post-time">10 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- second blog -->
+             <div class="col-sm-6">
+              <div class="post-item">
+                <div class="thumb">
+                  <a href="blog-details.html"><img style="border-radius: 5px;" src="images/drop.webp" alt="Blog"></a>
+                </div>
+                <div class="content">
+                  <div class="author">By <a style="text-decoration: none;" href="blog-left-sidebar.html">Walter Houston</a></div>
+                  <h4 class="title"><a href="blog-details.html">With WooLentor's drag-and-drop interface for creating...</a></h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="meta">
+                    <span class="post-date">03 April, 2022</span>
+                    <span class="dots"></span>
+                    <span class="post-time">10 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- third blog -->
+            <div class="col-sm-6">
+              <div class="post-item">
+                <div class="thumb">
+                  <a href="blog-details.html"><img style="border-radius: 5px;" src="images/store.webp" alt="Blog"></a>
+                </div>
+                <div class="content">
+                  <div class="author">By <a style="text-decoration: none;" href="blog-left-sidebar.html">Walter Houston</a></div>
+                  <h4 class="title"><a href="blog-details.html">Make your store stand out
+from the others by converting</a></h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="meta">
+                    <span class="post-date">03 April, 2022</span>
+                    <span class="dots"></span>
+                    <span class="post-time">10 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fourth blog -->
+            <div class="col-sm-6">
+              <div class="post-item">
+                <div class="thumb">
+                  <a href="blog-details.html"><img style="border-radius: 5px;" src="images/price.webp" alt="Blog"></a>
+                </div>
+                <div class="content">
+                  <div class="author">By <a style="text-decoration: none;" href="blog-left-sidebar.html">Walter Houston</a></div>
+                  <h4 class="title"><a href="blog-details.html">All of these amazing features
+come at an affordable price!</a></h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="meta">
+                    <span class="post-date">03 April, 2022</span>
+                    <span class="dots"></span>
+                    <span class="post-time">10 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- five blog -->
+            <div class="col-sm-6">
+              <div class="post-item">
+                <div class="thumb">
+                  <a href="blog-details.html"><img style="border-radius: 5px;" src="images/lentore.webp" alt="Blog"></a>
+                </div>
+                <div class="content">
+                  <div class="author">By <a style="text-decoration: none;" href="blog-left-sidebar.html">Walter Houston</a></div>
+                  <h4 class="title"><a href="blog-details.html">With WooLentor's drag-and-drop interface for creating...</a></h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="meta">
+                    <span class="post-date">03 April, 2022</span>
+                    <span class="dots"></span>
+                    <span class="post-time">10 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+               
+            <div class="col-sm-6">
+              <div class="post-item">
+                <div class="thumb">
+                  <a href="blog-details.html"><img style="border-radius: 5px;" src="images/one female.webp" alt="Blog"></a>
+                </div>
+                <div class="content">
+                  <div class="author">By <a style="text-decoration: none;" href="blog-left-sidebar.html">Walter Houston</a></div>
+                  <h4 class="title"><a href="blog-details.html">With WooLentor's drag-and-drop interface for creating...</a></h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="meta">
+                    <span class="post-date">03 April, 2022</span>
+                    <span class="dots"></span>
+                    <span class="post-time">10 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="post-item">
+                <div class="thumb">
+                  <a href="blog-details.html"><img style="border-radius: 5px;" src="images/2nd male.webp" alt="Blog"></a>
+                </div>
+                <div class="content">
+                  <div class="author">By <a style="text-decoration: none;" href="blog-left-sidebar.html">Walter Houston</a></div>
+                  <h4 class="title"><a href="blog-details.html">Make your store stand out
+from the others by converting</a></h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="meta">
+                    <span class="post-date">03 April, 2022</span>
+                    <span class="dots"></span>
+                    <span class="post-time">10 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- end blog -->
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-xl-4">
+          <div class="blog-sidebar">
+            
+            <!-- Search -->
+            <div class="widget-item position-relative">
+              <div class="widget-title"><h3 class="title">Search</h3></div>
+              <div class="widget-search-box">
+                <form action="#">
+                  <input type="search" placeholder="Search here...">
+                  <button type="submit" class="btn-src"><i class="icofont-search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Categories -->
+            <div class="widget-item">
+              <div class="widget-title"><h3 class="title">Post Categories</h3></div>
+              <div class="widget-categories">
+                <ul>
+                  <li><a href="jobs.html">Commercial Movers <span>(16)</span></a></li>
+                  <li><a href="jobs.html">Air Freight Services <span>(03)</span></a></li>
+                  <li><a href="jobs.html">Drone Services <span>(08)</span></a></li>
+                  <li><a href="jobs.html">Road Freight <span>(18)</span></a></li>
+                  <li><a href="jobs.html">Warehousing <span>(02)</span></a></li>
+                  <li><a href="jobs.html">Consulting Storage <span>(14)</span></a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Recent Posts -->
+            <div class="widget-item">
+              <div class="widget-title"><h3 class="title">Recent Posts</h3></div>
+              <div class="widget-post">
+                <div class="widget-blog-post">
+                  <div class="thumb">
+                    <a href="blog-details.html"><img src="images/aeroplane.webp" width="70" alt=""></a>
+                  </div>
+                  <div style="margin-top: -25px;" class="content">
+                    <h6><a style="text-decoration: none; color: black; font-weight: bold;" href="blog-details.html">This includes shipment of raw materials.</a></h6>
+                    <div class="meta"><i class="bi bi-calendar-day-fill"></i> 10 August, 2022</div>
+                  </div>
+                  
+                </div>
+                
+                 <div style="margin-top: -20px;" class="widget-post">
+                <div class="widget-blog-post">
+                  <div class="thumb">
+                    <a href="blog-details.html"><img src="images/boat.webp" width="70" alt=""></a>
+                  </div>
+                  <div style="margin-top: -25px;" class="content">
+                    <h6><a style="text-decoration: none; color: black; font-weight: bold;" href="blog-details.html">All of these amazing
+features come price.</a></h6>
+                    <div class="meta"><i class="bi bi-calendar-day-fill"></i> 18 August, 2022</div>
+                  </div>
+                </div>
+                 <div style="margin-top: -20px;" class="widget-post">
+                <div class="widget-blog-post">
+                  <div class="thumb">
+                    <a href="blog-details.html"><img src="images/raw.webp" width="70" alt=""></a>
+                  </div>
+                  <div style="margin-top: -25px;" class="content">
+                    <h6><a style="text-decoration: none; color: black; font-weight: bold;" href="blog-details.html">This includes shipment of raw materials.</a></h6>
+                    <div class="meta"><i class="bi bi-calendar-day-fill"></i> 19 August, 2022</div>
+                  </div>
+                </div>
+                 <div style="margin-top: -20px;" class="widget-post">
+                <div class="widget-blog-post">
+                  <div class="thumb">
+                    <a href="blog-details.html"><img src="images/ship.webp" width="70" alt=""></a>
+                  </div>
+                  <div style="margin-top: -25px;" class="content">
+                    <h6><a style="text-decoration: none; color: black; font-weight: bold;" href="blog-details.html">All of these amazing
+features come price.</a></h6>
+                    <div class="meta"><i class="bi bi-calendar-day-fill"></i> 10 August, 2022</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tags -->
+            <div class="widget-item mb-0">
+              <div class="widget-title"><h3 class="title">Popular Tags</h3></div>
+              <div class="widget-tags">
+                <ul>
+                  <li><a href="jobs.html">Animal</a></li>
+                  <li><a href="jobs.html">Charity</a></li>
+                  <li><a href="jobs.html">Forest</a></li>
+                  <li><a href="jobs.html">Water</a></li>
+                  <li><a href="jobs.html">Children</a></li>
+                  <li><a href="jobs.html">Human</a></li>
+                   <li><a href="jobs.html">Jungle</a></li>
+                    <li><a href="jobs.html">Birds</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+    <footer>
+        <div style="background-color: #03a84e; width: 100%; height: 200px;"
+            class="container-fluid d-flex align-items-center">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+
+                    <div class="col-12 col-md-5">
+                        <div class="news">
+                            <h4 style="font-size: 2.2rem;" class="text-white fw-bold">Subscribe for everyday job
+                                newsletter.</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-7">
+                        <div class="footer-newsletter-form">
+                            <form action="#" class="d-flex">
+                                <input type="email" placeholder="Enter your email" class="form-control me-2">
+                                <button type="submit" class="btn btn-primary btn-newsletter">Subscribe Now</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <footer class="main-footer">
+        <div style="background-color: #272a33;" class="container-fluid">
+            <div class="container pt--60 pb--60">
+                <div class="row">
+
+                    <div style="margin-bottom: 30px;" class="col-md-6 col-lg-3">
+                        <div class="logoindex">
+                            <a href="index.html">
+                                <img class="logo-main" src="images/logo-light-theme.png" alt="Logo" />
+                            </a>
+                        </div>
+                        <p class="ptext">That necessitat ecommerce platform that optimi your store popularised the
+                            release</p>
+                        <div class="icons">
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener"><i
+                                    class="bi bi-facebook"></i></a>
+                            <a href="https://www.skype.com" target="_blank" rel="noopener"><i
+                                    class="bi bi-skype"></i></a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener"><i
+                                    class="bi bi-twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-9">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-3">
+                                <div class="widget-item nav-menu-item1">
+                                    <h4 class="widget-title">Company</h4>
+                                    <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#widgetId-1">Company</h4>
+                                    <div id="widgetId-1" class="collapse widget-collapse-body">
+                                        <div class="collapse-body">
+                                            <div class="widget-menu-wrap">
+                                                <ul style="list-style: none;" class="nav-menu">
+                                                    <li><a href="about-us.html">About Us</a></li>
+                                                    <li><a href="about-us.html">Why Extobot</a></li>
+                                                    <li><a href="contact.html">Contact With Us</a></li>
+                                                    <li><a href="contact.html">Our Partners</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-lg-3">
+                                <div class="widget-item nav-menu-item2">
+                                    <h4 class="widget-title">Resources</h4>
+                                    <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#widgetId-2">Resources</h4>
+                                    <div id="widgetId-2" class="collapse widget-collapse-body">
+                                        <div class="collapse-body">
+                                            <div class="widget-menu-wrap">
+                                                <ul style="list-style: none;" class="nav-menu">
+                                                    <li><a href="account-login.html">Quick Links</a></li>
+                                                    <li><a href="job.html">Job Packages</a></li>
+                                                    <li><a href="job.html">Post New Job</a></li>
+                                                    <li><a href="job.html">Jobs Listing</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-lg-3">
+                                <div class="widget-item nav-menu-item3">
+                                    <h4 class="widget-title">Legal</h4>
+                                    <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#widgetId-3">Legal</h4>
+                                    <div id="widgetId-3" class="collapse widget-collapse-body">
+                                        <div class="collapse-body">
+                                            <div class="widget-menu-wrap">
+                                                <ul style="list-style: none;" class="nav-menu">
+                                                    <li><a href="account-login.html">Affiliate</a></li>
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="account-login.html">Help & Support</a></li>
+                                                    <li><a href="job.html">Careers</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-lg-3">
+                                <div class="widget-item nav-menu-item4">
+                                    <h4 class="widget-title">Products</h4>
+                                    <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#widgetId-4">Products</h4>
+                                    <div id="widgetId-4" class="collapse widget-collapse-body">
+                                        <div class="collapse-body">
+                                            <div class="widget-menu-wrap">
+                                                <ul style="list-style: none;" class="nav-menu">
+                                                    <li><a href="account-login.html">Star a Trial</a></li>
+                                                    <li><a href="about-us.html">How It Works</a></li>
+                                                    <li><a href="account-login.html">Features</a></li>
+                                                    <li><a href="about-us.html">Price & Planing</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <div class="container pt--0 pb--0">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-bottom-content">
+                            <p class="copyright">© 2022 Finate. Made with <i class="bi bi-suit-heart-fill"></i> by <a
+                                    target="_blank" href="https://themeforest.net/user/codecarnival">Codecarnival.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

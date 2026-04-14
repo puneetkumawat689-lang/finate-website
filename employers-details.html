@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>finate</title>
+
+
+</head>
+
+<body>
+
+
+    <div style="background-image: url(images/slider-bg.jpg);" class="im">
+        <header class="main-header">
+            <nav class="navbar navbar-expand-lg py-3">
+                <div class="container">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo-light.webp" alt="Logo">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 custom-nav-links">
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="color: #03a84e !important;">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a style="color: white;" class="nav-link dropdown" href="#" id="findJobsDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Find Jobs
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="findJobsDropdown">
+                                    <li><a class="dropdown-item" href="jobs.html">Jobs</a></li>
+                                    <li><a class="dropdown-item" href="jobsdetails.html">Jobs Details</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a style="color: white;" class="nav-link"
+                                    href="employers-details.html">Employer Details</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a style="color: white;" class="nav-link dropdown" href="#" id="candidatesDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Candidates
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="candidatesDropdown">
+                                    <li><a class="dropdown-item" href="candidates.html">Candidates</a></li>
+                                    <li><a class="dropdown-item" href="candidate-details.html">Candidates
+                                            Details</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a style="color: white;" class="nav-link dropdown" href="#" id="blogDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+                                    <li><a class="dropdown-item" href="Grid.html">Blog Grid</a></li>
+                                    <li><a class="dropdown-item" href="blog-left-sidebar.html">Blog Left
+                                            Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="blog-right-sidebar.html">Blog Right
+                                            Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="blog-details.html">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a style="color: white;" class="nav-link dropdown" href="#" id="pagesDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                    <li><a class="dropdown-item" href="about-us.html">About us</a></li>
+                                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                    <li><a class="dropdown-item" href="registration.html">Registration</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="page-not-found.html">Pages Not
+                                            Found</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a style="color: white ;" class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-flex ms-lg-auto">
+                            <a href="registration.html" class="btn btn-success fw-bold register-btn" role="button">
+                                + Registration
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <div style="text-align: center;" class="content">
+
+            <h1 style="text-align: center; font-weight: bold;">Job</h1>
+            <a style="text-decoration: none; color: white;" href="index.html">Home <span
+                    style="text-decoration: none; color: #03a84e;"> // Job</span></a>
+
+        </div>
+    </div>
+
+
+    </div>
+
+
+    <div style="background-color: whitesmoke;" class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="card mb-3" style="max-width: 540px; background-color: whitesmoke; border: none;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img style="padding: 10px;" src="images/11.webp" class="img-fluid rounded-4"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div style="padding: 30px;" class="card-body">
+                                <h4 style="font-weight: bold;" class="card-title">Mukianso IT Sulution Ltd.</h4>
+                                <div style="color: #555; gap: 10px; font-size: 13px;" class="tag">
+                                    <i class="bi bi-geo-alt-fill"></i><span>New York, USA</span>
+                                    <i class="bi bi-telephone-fill"></i><span>+88 456 796 457</span>
+                                    <a style="margin-top: 10px;" href="#"
+                                        class="btn btn-success btn-lg apply-btn">Follow us</a>
+                                    <a style="margin-top: 10px;" href="#" class="btn btn-success btn-lg apply-btn">Add
+                                        Review</a>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-4">
+                <div style="padding: 30px; " class="card-body">
+                    <div class="container text-center">
+
+                        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+
+                            <div style="background-color: white; width: 32%; height:100px; border-radius: 5px; ;"
+                                class="col">
+                                <h4 style="font-weight: bold; color: black; padding-top: 20px; font-size: 2rem;"
+                                    class="counter">86</h4>
+                                <h5 style="font-size: 15px;" class="title">Total jobs</h5>
+                            </div>
+
+                            <div style="background-color: white; width: 32%; height:100px; border-radius: 5px;"
+                                class="col">
+                                <h4 style="font-weight: bold; color: black; padding-top: 20px; font-size: 2rem;"
+                                    class="counter">27</h4>
+                                <h5 style="font-size: 15px;" class="title">Review</h5>
+                            </div>
+
+                            <div style="background-color: white; width: 32%; height:100px; border-radius: 5px;"
+                                class="col">
+                                <h4 style="font-weight: bold; color: black; padding-top: 20px; font-size: 2rem;"
+                                    class="counter">452</h4>
+                                <h5 style="font-size: 15px;" class="title">Views</h5>
+                            </div>
+                             </div>
+
+
+                    </div>
+                    </div>
+                    </div>
+
+                      
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <div class="container my-5">
+        <div class="row">
+
+            <div class="col-lg-8 col-lg-5">
+
+                <section style="color: #555; font-size: 15px; font-family: Jostsans-serif;" class="mb-4">
+                    <h2 class="section-title">About Employers</h2>
+                    <p>It is a long established fact that a reader will be distracted the readable content of page when
+                        looking atits layout. The point of using is that has more-or-less normal a distribution of
+                        letters, as opposed to usin content publishing packages web page editors. It is a long
+                        established fact that a reader will be distracts by the readable content of a page when looking
+                        at its layout. The point of using Lorem Ipsum is that has look like readable publishing packages
+                        and web page editors.</p>
+                    <p>It is a long established fact that a reader will be distracted the readable content of a page
+                        when looking atits layout. The point of using is that has more-or-less normal a distribution of
+                        letters, as opposed to usin content publishing packages web page editors.</p>
+                </section>
+                <hr class="d-lg-none">
+                <section class="mb-4">
+
+                    <ul class=" custom-list">
+                        <li><i class="bi bi-check"></i>Developing custom themes (WordPress.org & Themeforest Standards)
+                        </li>
+                        <li><i class="bi bi-check"></i>Creating responsive website designs</li>
+                        <li><i class="bi bi-check"></i>Manage order email templates</li>
+                        <li><i class="bi bi-check"></i>Develop page speed optimized themes</li>
+                    </ul>
+
+                    <section class="job-circulars-area py-5">
+                        <div class="container">
+                            <div class="row mb-5">
+                                <div class="col-12">
+                                    <div class="section-title text-center">
+                                        <h3 class="title fw-bold">Open Position</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-4 justify-content-center">
+
+                                <div class="col-12 col-md-6 col-lg-12 col-xl-6">
+                                    <div style="border: none; background-color:  whitesmoke;" class="card job-card p-3">
+                                        <div class="card-body">
+                                            <div class="row align-items-center mb-3">
+                                                <div class="col-auto">
+                                                    <a href="company-details.html">
+                                                        <img class="company-logo" src="images/1.webp"
+                                                            alt="Darkento Ltd. Logo">
+                                                    </a>
+                                                </div>
+                                                <div class="col ps-0">
+                                                    <h4 class="company-name mb-0">
+                                                        <a href="company-details.html">Darkento Ltd.</a>
+                                                    </h4>
+                                                    <p class="text-muted small mb-0">New York, USA</p>
+                                                </div>
+                                            </div>
+
+                                            <h3 class="job-title mb-2">
+                                                <a href="jobs.html">Front-end Developer</a>
+                                            </h3>
+                                            <p class="text-success fw-bold small mb-2">Full-time</p>
+
+                                            <p class="mb-3 text-dark small">
+                                                CSS3, HTML5, Javascript, Bootstrap, Jquery
+                                            </p>
+
+                                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                                <h3 class="mb-0 fw-bold salary">
+                                                    $5000<span class="fw-normal fs-6 text-muted">/monthly</span>
+                                                </h3>
+                                                <a href="jobs.html"
+                                                    class="btn btn-success fw-bold apply-btn">Apply Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6 col-lg-12 col-xl-6">
+                                    <div style="border: none; background-color: whitesmoke;" class="card job-card p-3">
+                                        <div class="card-body">
+                                            <div class="row align-items-center mb-3">
+                                                <div class="col-auto">
+                                                    <a href="company-details.html">
+                                                        <img class="company-logo" src="images/2.webp"
+                                                            alt="Inspire Fitness Co. Logo">
+                                                    </a>
+                                                </div>
+                                                <div class="col ps-0">
+                                                    <h4 class="company-name mb-0">
+                                                        <a href="company-details.html">Inspire Fitness Co.</a>
+                                                    </h4>
+                                                    <p class="text-muted small mb-0">New York, USA</p>
+                                                </div>
+                                            </div>
+
+                                            <h3 class="job-title mb-2">
+                                                <a href="jobs.html">Senior UI Designer</a>
+                                            </h3>
+                                            <p class="text-warning fw-bold small mb-2">Part-time</p>
+
+                                            <p class="mb-3 text-dark small">
+                                                CSS3, HTML5, Javascript, Bootstrap, Jquery
+                                            </p>
+
+                                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                                <h3 class="mb-0 fw-bold salary">
+                                                    $5000<span class="fw-normal fs-6 text-muted">/monthly</span>
+                                                </h3>
+                                                <a href="jobs.html"
+                                                    class="btn btn-success fw-bold apply-btn">Apply Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6 col-lg-12 col-xl-6">
+                                    <div style="border: none; background-color: whitesmoke;" class="card job-card p-3">
+                                        <div class="card-body">
+                                            <div class="row align-items-center mb-3">
+                                                <div class="col-auto">
+                                                    <a href="company-details.html">
+                                                        <img class="company-logo" src="images/3.webp"
+                                                            alt="Cogenet Data Logo">
+                                                    </a>
+                                                </div>
+                                                <div class="col ps-0">
+                                                    <h4 class="company-name mb-0">
+                                                        <a href="company-details.html">Cogenet Data</a>
+                                                    </h4>
+                                                    <p class="text-muted small mb-0">New York, USA</p>
+                                                </div>
+                                            </div>
+
+                                            <h3 class="job-title mb-2">
+                                                <a href="jobs.html">Graphic Designer</a>
+                                            </h3>
+                                            <p class="text-info fw-bold small mb-2">Remote</p>
+
+                                            <p class="mb-3 text-dark small">
+                                                CSS3, HTML5, Javascript, Bootstrap, Jquery
+                                            </p>
+
+                                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                                <h3 class="mb-0 fw-bold salary">
+                                                    $5000<span class="fw-normal fs-6 text-muted">/monthly</span>
+                                                </h3>
+                                                <a href="" class="btn btn-success fw-bold apply-btn">Apply
+                                                    Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6 col-lg-12 col-xl-6">
+                                    <div style="border: none; background-color: whitesmoke;" class="card job-card p-3">
+                                        <div class="card-body">
+                                            <div class="row align-items-center mb-3">
+                                                <div class="col-auto">
+                                                    <a href="company-details.html">
+                                                        <img class="company-logo" src="images/4.webp"
+                                                            alt="Obelus Concepts Logo">
+                                                    </a>
+                                                </div>
+                                                <div class="col ps-0">
+                                                    <h4 class="company-name mb-0">
+                                                        <a href="company-details.html">Obelus Concepts</a>
+                                                    </h4>
+                                                    <p class="text-muted small mb-0">New York, USA</p>
+                                                </div>
+                                            </div>
+
+                                            <h3 class="job-title mb-2">
+                                                <a href="jobs.html">UX Researcher</a>
+                                            </h3>
+                                            <p class="text-success fw-bold small mb-2">Full-time</p>
+
+                                            <p class="mb-3 text-dark small">
+                                                CSS3, HTML5, Javascript, Bootstrap, Jquery
+                                            </p>
+
+                                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                                <h3 class="mb-0 fw-bold salary">
+                                                    $5000<span class="fw-normal fs-6 text-muted">/monthly</span>
+                                                </h3>
+                                                <a href="jobs.html"
+                                                    class="btn btn-success fw-bold apply-btn">Apply Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6 col-lg-12 col-xl-6">
+                                    <div style="border: none; background-color: whitesmoke;" class="card job-card p-3">
+                                        <div class="card-body">
+                                            <div class="row align-items-center mb-3">
+                                                <div class="col-auto">
+                                                    <a href="company-details.html">
+                                                        <img class="company-logo" src="images/5.webp"
+                                                            alt="Sanguine Skincare Logo">
+                                                    </a>
+                                                </div>
+                                                <div class="col ps-0">
+                                                    <h4 class="company-name mb-0">
+                                                        <a href="company-details.html">Sanguine Skincare</a>
+                                                    </h4>
+                                                    <p class="text-muted small mb-0">New York, USA</p>
+                                                </div>
+                                            </div>
+
+                                            <h3 class="job-title mb-2">
+                                                <a href="jobs.html">Android App Developer</a>
+                                            </h3>
+                                            <p class="text-info fw-bold small mb-2">Remote</p>
+
+                                            <p class="mb-3 text-dark small">
+                                                CSS3, HTML5, Javascript, Bootstrap, Jquery
+                                            </p>
+
+                                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                                <h3 class="mb-0 fw-bold salary">
+                                                    $5000<span class="fw-normal fs-6 text-muted">/monthly</span>
+                                                </h3>
+                                                <a href="jobs.html"
+                                                    class="btn btn-success fw-bold apply-btn">Apply Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-12 col-md-6 col-lg-12 col-xl-6">
+                                    <div style="border: none; background-color: whitesmoke;" class="card job-card p-3">
+                                        <div class="card-body">
+                                            <div class="row align-items-center mb-3">
+                                                <div class="col-auto">
+                                                    <a href="company-details.html">
+                                                        <img class="company-logo" src="images/8.webp"
+                                                            alt="Inspire Fitness Co. Logo">
+                                                    </a>
+                                                </div>
+                                                <div class="col ps-0">
+                                                    <h4 class="company-name mb-0">
+                                                        <a href="company-details.html">Inspire Fitness Co.</a>
+                                                    </h4>
+                                                    <p class="text-muted small mb-0">New York, USA</p>
+                                                </div>
+                                            </div>
+
+                                            <h3 class="job-title mb-2">
+                                                <a href="jobs.html">Senior UI Designer</a>
+                                            </h3>
+                                            <p class="text-warning fw-bold small mb-2">Part-time</p>
+
+                                            <p class="mb-3 text-dark small">
+                                                CSS3, HTML5, Javascript, Bootstrap, Jquery
+                                            </p>
+
+                                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                                <h3 class="mb-0 fw-bold salary">
+                                                    $5000<span class="fw-normal fs-6 text-muted">/monthly</span>
+                                                </h3>
+                                                <a href="jobs.html"
+                                                    class="btn btn-success fw-bold apply-btn">Apply Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+            </div>
+            </section>
+            </section>
+
+
+
+
+            <div class="col-lg-4">
+
+                <div class="card summary-card p-4 mb-4">
+                    <h3 class="summary-title">Information</h3>
+                    <table class="table table-borderless summary-table">
+                        <tbody>
+                            <tr>
+                                <th>Categories</th>
+                                <td>: Design & Software
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Since</th>
+                                <td>: 1996</td>
+                            </tr>
+                            <tr>
+                                <th>Views</th>
+                                <td>: 568+</td>
+                            </tr>
+                            <tr>
+                                <th>Reviews</th>
+                                <td>: (4.8)<i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Total Jobs</th>
+                                <td>: 87+</td>
+                            </tr>
+                            <tr>
+                                <th>Location</th>
+                                <td>: New york,USA</td>
+                            </tr>
+                            <tr>
+                                <th>Team Members</th>
+                                <td>: 300-500</td>
+                            </tr>
+                            <tr>
+                                <th>Job Success</th>
+                                <td>: 98%</td>
+                            </tr>
+                            <tr>
+                                <th>Phone</th>
+                                <td>: +00 568 467 843</td>
+                            </tr>
+                            <tr>
+                                <th>E-mail</th>
+                                <td>: yourmail@gmail.com
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>website</th>
+                                <td style="color: orange;">: www.website.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <hr class="d-lg-none">
+
+                <div class="card share-card p-4 mb-4">
+                    <h3 class="share-title">Share With</h3>
+                    <div class="d-flex justify-content-center share-icons">
+                        <a href="#" class="btn me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="btn me-2"><i class="bi bi-google"></i></a>
+                        <a href="#" class="btn me-2"><i class="bi bi-pinterest"></i></a>
+                        <a href="#" class="btn"><i class="bi bi-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div style="background-color: whitesmoke; height: 500px;" class="widget-item widget-contact">
+                    <div class="widget">
+                        <h3 style="color: black; font-size: 1.5rem;  font-weight: bold; padding: 30px;" class="title">
+                            Contact Now</h3>
+                    </div>
+                    <div class="widget-form">
+                        <form id="contact-form" action="https://whizthemes.com/mail-php/raju/arden/mail.php"
+                            method="POST">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" name="con_name" placeholder="Name:">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input class="form-control" type="email" name="con_email" placeholder="Email:">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="con_message"
+                                            placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group mb--0">
+                                        <button class="btn-theme d-block w-100" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+    <footer>
+        <div style="background-color: #03a84e; width: 100%; height: 200px;"
+            class="container-fluid d-flex align-items-center">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+
+                    <div class="col-12 col-md-5">
+                        <div class="news">
+                            <h4 style="font-size: 2.2rem;" class="text-white fw-bold">Subscribe for everyday job
+                                newsletter.</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-7">
+                        <div class="footer-newsletter-form">
+                            <form action="#" class="d-flex">
+                                <input type="email" placeholder="Enter your email" class="form-control me-2">
+                                <button type="submit" class="btn btn-primary btn-newsletter">Subscribe Now</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <footer class="main-footer">
+        <div style="background-color: #272a33;" class="container-fluid">
+            <div class="container pt--60 pb--60">
+                <div class="row">
+
+                    <div style="margin-bottom: 30px;" class="col-md-6 col-lg-3">
+                        <div class="logoindex">
+                            <a href="index.html">
+                                <img class="logo-main" src="images/logo-light-theme.png" alt="Logo" />
+                            </a>
+                        </div>
+                        <p class="ptext">That necessitat ecommerce platform that optimi your store popularised the
+                            release</p>
+                        <div class="icons">
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener"><i
+                                    class="bi bi-facebook"></i></a>
+                            <a href="https://www.skype.com" target="_blank" rel="noopener"><i
+                                    class="bi bi-skype"></i></a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener"><i
+                                    class="bi bi-twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-9">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-3">
+                                <div class="widget-item nav-menu-item1">
+                                    <h4 class="widget-title">Company</h4>
+                                    <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#widgetId-1">Company</h4>
+                                    <div id="widgetId-1" class="collapse widget-collapse-body">
+                                        <div class="collapse-body">
+                                            <div class="widget-menu-wrap">
+                                                <ul style="list-style: none;" class="nav-menu">
+                                                    <li><a href="about-us.html">About Us</a></li>
+                                                    <li><a href="about-us.html">Why Extobot</a></li>
+                                                    <li><a href="contact.html">Contact With Us</a></li>
+                                                    <li><a href="contact.html">Our Partners</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-lg-3">
+                                <div class="widget-item nav-menu-item2">
+                                    <h4 class="widget-title">Resources</h4>
+                                    <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#widgetId-2">Resources</h4>
+                                    <div id="widgetId-2" class="collapse widget-collapse-body">
+                                        <div class="collapse-body">
+                                            <div class="widget-menu-wrap">
+                                                <ul style="list-style: none;" class="nav-menu">
+                                                    <li><a href="account-login.html">Quick Links</a></li>
+                                                    <li><a href="job.html">Job Packages</a></li>
+                                                    <li><a href="job.html">Post New Job</a></li>
+                                                    <li><a href="job.html">Jobs Listing</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-lg-3">
+                                <div class="widget-item nav-menu-item3">
+                                    <h4 class="widget-title">Legal</h4>
+                                    <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#widgetId-3">Legal</h4>
+                                    <div id="widgetId-3" class="collapse widget-collapse-body">
+                                        <div class="collapse-body">
+                                            <div class="widget-menu-wrap">
+                                                <ul style="list-style: none;" class="nav-menu">
+                                                    <li><a href="account-login.html">Affiliate</a></li>
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="account-login.html">Help & Support</a></li>
+                                                    <li><a href="job.html">Careers</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-lg-3">
+                                <div class="widget-item nav-menu-item4">
+                                    <h4 class="widget-title">Products</h4>
+                                    <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#widgetId-4">Products</h4>
+                                    <div id="widgetId-4" class="collapse widget-collapse-body">
+                                        <div class="collapse-body">
+                                            <div class="widget-menu-wrap">
+                                                <ul style="list-style: none;" class="nav-menu">
+                                                    <li><a href="account-login.html">Star a Trial</a></li>
+                                                    <li><a href="about-us.html">How It Works</a></li>
+                                                    <li><a href="account-login.html">Features</a></li>
+                                                    <li><a href="about-us.html">Price & Planing</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <div class="container pt--0 pb--0">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-bottom-content">
+                            <p class="copyright">© 2022 Finate. Made with <i class="bi bi-suit-heart-fill"></i> by <a
+                                    target="_blank" href="https://themeforest.net/user/codecarnival">Codecarnival.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
